@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    min-width: 97vw;
+    grid-template-columns: minmax(1fr, 1fr) minmax(1fr, 1fr) minmax(1fr, 1fr);
+    grid-template-rows: repeat(3, minmax(1fr, 1fr));
+    grid-template-areas:
+                   "hd hd hd"
+                   "sd sd sd"
+                   "main main main"
+                   "ft ft ft";
+    /* color: rgb(207, 186, 62); */
+    color: rgb(209, 209, 209);
+    }

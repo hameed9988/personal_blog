@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle at top,transparent 14%, #092C3E 15% ,#092C3E 19% , transparent 20%) , radial-gradient(circle at bottom,transparent 14%, #092C3E 15% ,#092C3E 19% , transparent 20%), radial-gradient(circle at right,transparent 14%, #092C3E 15% ,#092C3E 19% , transparent 20%) , radial-gradient(circle at left,transparent 14%, #092C3E 15% ,#092C3E 19% , transparent 20%), radial-gradient(circle at center,#092C3E 25% , transparent 26%), radial-gradient(circle at bottom left, #092C3E 12%, transparent 13%),radial-gradient(circle at bottom right, #092C3E 12%, transparent 13%),radial-gradient(circle at top left, #092C3E 12%, transparent 13%),radial-gradient(circle at top right, #092C3E 12%, transparent 13%);
+    background-size: 16px 16px;
+    background-color: #0f3e56;
+    opacity: 1;
+  }
+
+  /* body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f3e56;
+  } */
