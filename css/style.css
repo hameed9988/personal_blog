@@ -37,6 +37,16 @@
   flex-direction: row;
   padding: 3%;
 }
+.sidebar p {
+  color: #9fb6ab;
+}
+.sidebar u {
+  color: #ffffff;
+}
+.sidebar q {
+  color: burlywood;
+}
+
 .content {
   grid-area: main;
   color: bisque;
@@ -297,7 +307,6 @@ grid-template-rows: minmax(120px, 120px) minmax(150px, 150px) minmax(55px, 55px)
   font-size: small;
 }
 }
-
 /* / *Large Screens* / */
 @media (min-width:1024px) {
 .container {
@@ -379,4 +388,3 @@ padding: 5%;
   margin-left: 3%;
 }
 }
-
