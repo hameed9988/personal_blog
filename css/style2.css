@@ -156,6 +156,28 @@ width: auto;
   line-break: anywhere;
   margin-top: 5%;
 }
+#auther-box h3 {
+  color: yellowgreen;
+  text-decoration: double;
+}
+#auther-box h4 {
+  color: rgb(231, 231, 58);
+  text-decoration: underline;
+}
+#auther-box h5 {
+  color: tan;
+  font-style: italic;
+}
+#auther-box p {
+  color: turquoise;
+}
+.image-article{
+  text-align: center;
+  color: rgb(198, 188, 231);
+  margin: 3%;
+}
+
+
 .other-details {
   font-size: smaller;
   padding: 0%;
